@@ -3,11 +3,11 @@ vue.js pdf viewer is a package for Vue that enables you to display and view PDF'
 
 ## Install via NPM/Yarn
 ```bash
-npm install vue-pdf
+npm install vue-pdf-spacemit
 ```
 
 ```bash
-yarn add vue-pdf
+yarn add vue-pdf-spacemit
 ```
 
 ## Example - basic
@@ -17,13 +17,14 @@ yarn add vue-pdf
 </template>
 
 <script>
-import pdf from 'vue-pdf'
+import pdf from 'vue-pdf-spacemit'
 
 export default {
   components: {
     pdf
   }
 }
+</script>
 ```
 
 ## Demo
