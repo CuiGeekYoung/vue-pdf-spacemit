@@ -28,7 +28,7 @@ export default function(PDFJS) {
 
 		if ( options && options.withCredentials )
 			source.withCredentials = options.withCredentials;
-
+		source.disableFontFace = true;
 		var loadingTask = PDFJS.getDocument(source);
 		loadingTask.__PDFDocumentLoadingTask = true; // since PDFDocumentLoadingTask is not public
 

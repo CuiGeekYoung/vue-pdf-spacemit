@@ -1,6 +1,6 @@
 # vue-pdf
 vue.js pdf viewer is a package for Vue that enables you to display and view PDF's easily via vue components.
-
+base version 4.2.0
 ## Install via NPM/Yarn
 ```bash
 npm install vue-pdf-spacemit
